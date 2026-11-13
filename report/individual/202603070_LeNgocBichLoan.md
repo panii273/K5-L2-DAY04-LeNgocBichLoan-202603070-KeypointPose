@@ -6,9 +6,9 @@ Dữ liệu: 12 ảnh người COCO val2017 (Lin et al., 2014) và 8 ảnh chân
 
 ## 0. Thông tin học viên
 
-- Họ tên:
-- MSSV:
-- Email:
+- Họ tên: Le Ngoc Bich Loan
+- MSSV:2A202603070
+- Email:lengocbichloan5@gmail.com
 - Link repository:
 - Phiên bản CVAT (Help → About):
 - Máy: hệ điều hành ___ · RAM ___ GB · chạy CVAT chế độ đầy đủ / lite
