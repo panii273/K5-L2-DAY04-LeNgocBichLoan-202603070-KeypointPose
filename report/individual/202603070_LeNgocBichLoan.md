@@ -7,43 +7,42 @@ Dữ liệu: 12 ảnh người COCO val2017 (Lin et al., 2014) và 8 ảnh chân
 ## 0. Thông tin học viên
 
 - Họ tên: Le Ngoc Bich Loan
-- MSSV:2A202603070
-- Email:lengocbichloan5@gmail.com
-- Link repository:
+- MSSV: 2A202603070
+- Email: lengocbichloan5@gmail.com
+- Link repository: https://github.com/panii273/K5-L2-DAY04-LeNgocBichLoan-202603070-KeypointPose.git
 - Phiên bản CVAT (Help → About):
-- Máy: hệ điều hành ___ · RAM ___ GB · chạy CVAT chế độ đầy đủ / lite
-- Bộ ảnh (`src/exports/assignment.json` do `lab.py setup` tạo): có / không
-- Giờ bắt đầu:
-- Giờ kết thúc:
+- Máy: máy tính của bạn hỗ trợ · hệ điều hành Macbook pro · RAM 16 GB · CVAT chế độ full
+- Bộ ảnh (`src/exports/assignment.json` do `lab.py setup` tạo): có 
+- Giờ bắt đầu: 16h
+- Giờ kết thúc: 9h
 
 ## 1. Kiểm tra label (CP0)
 
 | Label | Kiểu | Số điểm | Tên điểm đúng bảng của lab? | Đúng thứ tự? | Số cạnh |
 |---|---|---:|---|---|---:|
-| `person` | | | | | |
-| `face` | | | | | |
+| `person` |Skeleton |17|có theo JSON export |có theo JSON export |19 |
+| `face` |Skeleton |13 |có theo JSON export |có theo JSON export |13 |
 
-Mẫu `person` dựng theo người quay mặt về camera (các điểm `left_*` nằm bên phải khung mẫu)? Có / Không
+Mẫu `person` dựng theo người quay mặt về camera (các điểm `left_*` nằm bên phải khung mẫu)? Có 
 
 Cách đổi cờ `occluded` / `outside` cho **một điểm** trên phiên bản CVAT này (một câu):
-
-...
+Rê chuột vào đúng điểm cần thay đổi, nhấn Q để bật/tắt occluded (v = 1), nhấn O để bật/tắt outside (v = 0), hoặc nhấn chuột phải vào điểm để chọn trong menu.
 
 ## 2. Số lượng đã gán và thời gian (CP1, CP2)
 
 | Nhóm ảnh | Số ảnh | Số skeleton đã gán | Số người dưới 60 px (không gán) | Số poster / gương / màn hình bỏ qua | Thời gian (phút) |
 |---|---:|---:|---:|---:|---:|
-| `easy` | 5 | | | | |
-| `occluded` | 3 | | | | |
-| `back` | 2 | | | | |
-| `small` | 1 | | | | |
-| `crowd` | 1 | | | | |
-| `faces` | 8 | | — | | |
+| `easy` | 5 |5 |chưa thống kê |0 |không ghi nhận |
+| `occluded` | 3 |6 |chưa thống kê |0 |không ghi nhận |
+| `back` | 2 |4 |chưa thống kê |0 |không ghi nhận |
+| `small` | 1 |2 |cần kiểm tra thêm |0 |không ghi nhận |
+| `crowd` | 1 |3 |cần kiểm tra thêm |0 |không ghi nhận |
+| `faces` | 8 | | — |0 |không ghi nhận |
 
-- Số ảnh người đã xong ở mốc phút 105: ___ / 10
-- Thời gian thực tế (phút): CP1 ___ · CP2 ___ · CP3 ___
+- Số ảnh người đã xong ở mốc phút 105: 0 / 10
+- Thời gian thực tế (phút): CP1 60 · CP2 60 · CP3 chưa ghi nhận
 - Ảnh tốn thời gian nhất là ảnh nào, vì sao?
-
+ảnh 2 cậu bé trượt ván 1 cậu quay lưng khó đoán được và cậu bé đang đứng vì tay bị che khuất và ảnh nhỏ
 ...
 
 ## 3. Bảng ca khó (CP1, CP2)
