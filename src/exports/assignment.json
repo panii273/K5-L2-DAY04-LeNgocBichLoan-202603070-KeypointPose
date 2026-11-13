@@ -1,0 +1,43 @@
+{
+ "mssv": "202603070",
+ "ten": "LeNgocBichLoan",
+ "pool_version": "d04-k5-v2",
+ "cvat_user": "ann091005",
+ "project": "d04-keypoint",
+ "persons": [
+  "000000177889.jpg",
+  "000000205650.jpg",
+  "000000240340.jpg",
+  "000000241837.jpg",
+  "000000429594.jpg",
+  "000000030960.jpg",
+  "000000091637.jpg",
+  "000000122199.jpg",
+  "000000069971.jpg",
+  "000000431988.jpg",
+  "000000167027.jpg",
+  "000000381889.jpg"
+ ],
+ "faces": [
+  "face_204787.jpg",
+  "face_359139.jpg",
+  "face_469647.jpg",
+  "face_264124.jpg",
+  "face_442231.jpg",
+  "face_380754.jpg",
+  "face_99874.jpg",
+  "face_560526.jpg"
+ ],
+ "tasks": {
+  "persons": {
+   "task_id": 25,
+   "job_id": 25,
+   "task_name": "persons-LeNgocBichLoan"
+  },
+  "faces": {
+   "task_id": 26,
+   "job_id": 26,
+   "task_name": "faces-LeNgocBichLoan"
+  }
+ }
+}
